@@ -11,7 +11,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://nex-chat-frontend.vercel.app",
     credentials: true,
   })
 );
