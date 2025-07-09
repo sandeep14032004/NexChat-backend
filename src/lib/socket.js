@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://nex-chat-frontend.vercel.app"],
+    origin: ["https://nex-chat-frontend.vercel.app", "http://localhost:5173:"],
   },
 });
 
